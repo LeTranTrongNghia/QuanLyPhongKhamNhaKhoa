@@ -5,13 +5,14 @@ using DAL.DAL.EF;
 using NavigationView.BLL.Treatments;
 using BLL.BLL.Treatments;
 using System.Collections.Generic;
+using NavigationView.BLL.Manage;
 
 namespace NavigationView.UserControls
 {
     public partial class UserControl3 : UserControl
     {
         private readonly ThongtincanlamsanService thongtincanlamsanService = new ThongtincanlamsanService();
-
+        private readonly AccountService accountService = new AccountService();
         private readonly ThongtinlamsanService thongtinlamsanService = new ThongtinlamsanService();
         private readonly ChuandoandieutriService chuandoandieutriService = new ChuandoandieutriService();
         private readonly HoadonService hoadonService = new HoadonService();
@@ -287,7 +288,7 @@ namespace NavigationView.UserControls
                                     ngayKham = i.ngayThanhToan,
                                     maHoaDon = i.maHoaDon,
                                     maBenhNhan = i.maBenhNhan,
-                                    maNhanVien = 2 // lấy mã nhân viên login dô gắn dô nha cha.
+                                    maNhanVien = accountService.GetTempInformation().maNhanVien
                                 };
 
                                 if (lsk.ngayKham == null)
