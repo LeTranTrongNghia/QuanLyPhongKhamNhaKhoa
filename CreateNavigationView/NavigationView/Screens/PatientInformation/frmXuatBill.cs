@@ -68,7 +68,7 @@ namespace NavigationView.Screens.PatientInformation
                 {
                     MessageBox.Show("Không có bệnh nhân");
                 }
-                this.rpv_xuatbill.LocalReport.ReportPath = "D:/Winform/23102023/CreateNavigationView/NavigationView/Screens/PatientInformation/ReportBILL/rpBILL.rdlc";
+                this.rpv_xuatbill.LocalReport.ReportPath = "C:/Users/ACER/OneDrive/Desktop/QuanLyPhongKhamNhaKhoa-main/CreateNavigationView/NavigationView/Screens/PatientInformation/ReportBILL/rpBILL.rdlc";
                 ReportDataSource reportDataSource = new ReportDataSource("DataSetBILL", lisreportbill);
                 rpv_xuatbill.LocalReport.DataSources.Clear();
                 rpv_xuatbill.LocalReport.DataSources.Add(reportDataSource);

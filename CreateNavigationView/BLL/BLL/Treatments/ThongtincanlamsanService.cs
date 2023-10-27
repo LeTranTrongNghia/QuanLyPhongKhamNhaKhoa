@@ -34,15 +34,26 @@ namespace NavigationView.BLL.Treatments
                 {
                     for (int j = 0; j < h.Count; j++)
                     {
-                        if (cls[i].maCanLamSan != h[j].maCanLamSan)
+                        if (cls[i].maCanLamSan == h[j].maCanLamSan)
                         {
-                            return cls[i].maCanLamSan;
+                            thongtincanxoa.Add(cls[i]);
                         }
                     }
                 }
 
+                foreach(var item in thongtincanxoa)
+                {
+                    cls.Remove(item);
+                }    
+                
+                return cls[0].maCanLamSan;
+                    
+
             }
-            return -1;
+            else
+            {
+                return cls[0].maCanLamSan;
+            }
         }
         public int Add_Update(ThongTinCanLamSan t)
         {

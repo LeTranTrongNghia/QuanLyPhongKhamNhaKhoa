@@ -34,3 +34,15 @@ D:\Winform\23102023\CreateNavigationView\DAL\obj\Debug\DAL.csproj.CoreCompileInp
 D:\Winform\23102023\CreateNavigationView\DAL\obj\Debug\DAL.csproj.CopyComplete
 D:\Winform\23102023\CreateNavigationView\DAL\obj\Debug\DAL.dll
 D:\Winform\23102023\CreateNavigationView\DAL\obj\Debug\DAL.pdb
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\bin\Debug\DAL.dll.config
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\bin\Debug\DAL.dll
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\bin\Debug\DAL.pdb
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\bin\Debug\EntityFramework.dll
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\bin\Debug\EntityFramework.xml
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\obj\Debug\DAL.csproj.AssemblyReference.cache
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\obj\Debug\DAL.csproj.CoreCompileInputs.cache
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\obj\Debug\DAL.csproj.CopyComplete
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\obj\Debug\DAL.dll
+C:\Users\ACER\OneDrive\Desktop\QuanLyPhongKhamNhaKhoa-main\CreateNavigationView\DAL\obj\Debug\DAL.pdb

@@ -7,8 +7,9 @@ using System.Data;
 using System.Linq;
 using System.Windows.Forms;
 using NavigationView.Screens.HomeScreen;
-using static BLL.DAL.EF.EFModels;
+/*using static BLL.DAL.EF.EFModels;*/
 using BLL.DAL.EF;
+using static DAL.DAL.EF.EFModels;
 
 namespace NavigationView.UserControls
 {

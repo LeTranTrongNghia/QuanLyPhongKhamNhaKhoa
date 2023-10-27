@@ -4,6 +4,7 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 using BLL.DAL.EF;
+using DAL.DAL.EF;
 namespace NavigationView.BLL.Manage
 {
     public class ExaminationHistory

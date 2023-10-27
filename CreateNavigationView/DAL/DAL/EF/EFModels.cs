@@ -1,4 +1,3 @@
-using DAL.DAL.EF;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel.DataAnnotations;
@@ -6,15 +5,14 @@ using System.ComponentModel.DataAnnotations.Schema;
 using System.Data.Entity;
 using System.Linq;
 
-namespace BLL.DAL.EF
+namespace DAL.DAL.EF
 {
     public partial class EFModels : DbContext
     {
         public EFModels()
-            : base("name=EFModels2")
+            : base("name=EFModels")
         {
         }
-
         public class ChartData
         {
             public DateTime Ngay { get; set; }

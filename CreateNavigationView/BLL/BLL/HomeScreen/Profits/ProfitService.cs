@@ -1,6 +1,7 @@
 ﻿using BLL.DAL;
 using System.Collections.Generic;
-using static BLL.DAL.EF.EFModels;
+using static DAL.DAL.EF.EFModels;
+/*using static BLL.DAL.EF.EFModels;*/
 
 namespace BLL.BLL
 {

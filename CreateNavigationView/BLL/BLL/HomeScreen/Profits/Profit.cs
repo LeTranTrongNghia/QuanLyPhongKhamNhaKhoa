@@ -2,7 +2,9 @@
 using NavigationView.widgets.HomeScreen;
 using System.Collections.Generic;
 using System.Linq;
-using static BLL.DAL.EF.EFModels;
+/*using static BLL.DAL.EF.EFModels;*/
+using DAL.DAL.EF;
+using static DAL.DAL.EF.EFModels;
 
 namespace BLL.DAL
 {

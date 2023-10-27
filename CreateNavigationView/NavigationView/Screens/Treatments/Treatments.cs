@@ -151,9 +151,7 @@ namespace NavigationView.UserControls
             else
             {
 
-                if (int.TryParse(cmbchuandoan.SelectedValue?.ToString(), out int macd))//chuyển đổi giá trị được chọn từ ComboBox cmbMachuandoan thành một số nguyên và gán kết quả vào biến macd
-                //nếu SelectedValue == null thì trả về int macd = null
-                // out int macd : Khi int.TryParse thành công và chuyển đổi chuỗi thành một số nguyên, giá trị số nguyên đó sẽ được gán vào biến macd.
+                if (int.TryParse(cmbchuandoan.SelectedValue?.ToString(), out int macd))
                 {
                     txtdieutri.Text = thongtinlamsanService.noidungdieutri(macd);
                 }
@@ -162,7 +160,7 @@ namespace NavigationView.UserControls
 
         private void dtgvNDdieutri_CellClick(object sender, DataGridViewCellEventArgs e)
         {
-            if (dtgvNDdieutri.RowCount > 1) // ktra datagridview có dữ liệu hay không ( 1 là do cái datagridview luôn có 1 hàng rỗng, có thể tắt o
+            if (dtgvNDdieutri.RowCount > 1) 
             {
                 if (dtgvNDdieutri.SelectedRows.Count == 0)
                 {
@@ -239,15 +237,12 @@ namespace NavigationView.UserControls
                 }
                 if (dem == dtgvNDdieutri.RowCount - 1)
                 {
-                    int macanlamsan = 0;
-
-
+                    
                     //hóa đơn
                     var item = thongtinlamsanService.getThongtinbenh(thongtincanlamsanService.finfID(txtmabenhnhanform2.Text));//trả về thông tin lâm sàn có mbn --> list thông tin lâm sàn
-                    if (thongtincanlamsanService.macanlamsan(thongtincanlamsanService.finfID(txtmabenhnhanform2.Text)) != 0)//ktra và lưu giá trị mã cận lâm sàn tương ứng
-                    {
-                        macanlamsan = thongtincanlamsanService.macanlamsan(thongtincanlamsanService.finfID(txtmabenhnhanform2.Text));
-                    }
+                    int macanlamsan = thongtincanlamsanService.macanlamsan((thongtincanlamsanService.finfID(txtmabenhnhanform2.Text)));
+                    
+                        
                     //add hóa đơn
                     int dem1 = 0;
 
@@ -258,7 +253,7 @@ namespace NavigationView.UserControls
                         {
                             ngayThanhToan = DateTime.Today.Date,
                             maThanhToan = 1,
-                            maDonThuoc = 1,
+                            maDonThuoc = 2,
                             maLamSan = i.maLamSan,
                             maCanLamSan = macanlamsan,
                             maBenhNhan = i.maBenhNhan,
